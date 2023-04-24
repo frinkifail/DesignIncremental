@@ -5,7 +5,7 @@ const kd = "kromer-display";
 
 // Intervals
 const update_interval = setInterval(function() {
-    e(kd).textContent = data.kromer;
+    e(kd).textContent = !user_settings.dolla_sign ? data.kromer.toLocaleString() : data.kromer.toLocaleString()+'$';
 }, 50)
 const funny_test_interval = setInterval(function() {
     data.kromer += 1;
