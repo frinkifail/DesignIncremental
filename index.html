@@ -9,16 +9,50 @@
     <link rel="stylesheet" href="styles/extra.css">
 </head>
 <body>
+    <!-- Persists -->
+    <nav>
+        <button id="nav__main">Main</button>
+        <!-- <button id="nav__funny-test">Funny Test</button> -->
+        <button id="nav__shop">Shop</button>
+    </nav>
     <center>
-        <h2 id="kromer-display" style="color: var(--fg-cornflowergreen-dark);"></h2>
+        <h2 class="kromer-display" style="color: var(--fg-cornflowergreen-dark);"></h2>
     </center>
-    <div class="card">
-        <div class="header">
-            <h3>Hello</h3>
-        </div>
-        <p>Hello This Is Body Text LMAO</p>
+    <!-- End Persists -->
+    <!-- Dynamics -->
+    <div id="content">
+        Select something
     </div>
+    <!-- End Dynamics-->
+    <!-- Statics -->
+    <div class="hidden"> <!-- Hidden Things -->
+        <div id="sect__main"> <!-- Main -->
+            <h1>You're currently at the main menu!</h1>
+        </div>
+        <div id="sect__funny-test"> <!-- Funny Test -->
+            <h1>You're at the funny test page.</h1>
+        </div>
+        <div id="sect__shop">
+            <center>
+                <h1 class="gradient d" wtcr inline>Shop</h1>
+                <h3 style="position: absolute;
+                right: 20px;
+                margin: 0;
+                margin-top: 15px;
+                color: var(--fg-cornflowergreen-dark);" class="kromer-display d" inline></h3>
+            </center>
+            <div class="card" id="shop__card__test_item">
+                <div class="header">
+                    <h1>Test Item</h1>
+                </div>
+                <h4>It does this and that</h4>
+                <p><span id="shop__cost__test_item">! LOADING !</span> (x<span id="shop__amt__test_item">! LOADING !</span>)</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Statics-->
 </body>
 <script src="js/data.js"></script>
 <script src="js/game.js"></script>
+<script src="js/switch_page.js"></script>
 </html>
