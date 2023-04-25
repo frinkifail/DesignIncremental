@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,9 @@
     <title>Design Incremental</title>
     <link rel="stylesheet" href="styles/game.css">
     <link rel="stylesheet" href="styles/extra.css">
+    <link rel="stylesheet" href="styles/checkbox.css">
 </head>
+
 <body>
     <!-- Persists -->
     <nav>
@@ -47,13 +50,18 @@
                     <h1>Test Item</h1>
                 </div>
                 <h4>It does this and that</h4>
-                <p><span id="shop__cost__test_item">! LOADING !</span> (x<span id="shop__amt__test_item">! LOADING !</span>)</p>
+                <p><span id="shop__cost__test_item">! LOADING !</span> (x<span id="shop__amt__test_item">! LOADING
+                        !</span>)</p>
             </div>
         </div>
         <div id="sect__settings">
             <center>
                 <h1 class="gradient" wtcb>Settings</h1>
-                <h2>Work In Progress</h2>
+                <!-- <h2>Work In Progress</h2> -->
+                <div class="checkbox">
+                    <input type="checkbox" class="set__chx__dolla" style="z-index: 99; position: absolute;">
+                    <label for="set__chx__dolla">Dollar Sign</label>
+                </div>
             </center>
         </div>
     </div>
@@ -62,4 +70,5 @@
 <script src="js/data.js"></script>
 <script src="js/game.js"></script>
 <script src="js/switch_page.js"></script>
+<script src="js/checkbox.js"></script>
 </html>
