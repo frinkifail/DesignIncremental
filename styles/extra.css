@@ -10,6 +10,7 @@
 .card > *:not(.header) {
     padding: 10px;
     margin: 0;
+    padding-right: 20px;
 }
 .card > .header {
     background-color: var(--bg-dark-alt-2);
@@ -17,5 +18,5 @@
     border-radius: 8px;
     padding-bottom: 0.1px;
     padding-left: 17px;
-    padding-right: 10px;
+    padding-right: 150px;
 }

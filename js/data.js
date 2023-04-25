@@ -30,10 +30,12 @@ const aliases = {
         m: "sect__main",
         ft: "sect__funny-test",
         s: "sect__shop",
+        st: "sect__settings",
         b: { // Buttons
             m: "nav__main",
             ft: "nav__funny-test",
-            s: "nav__shop"
+            s: "nav__shop",
+            st: "nav__settings",
         }
     },
     s: { // Shop Things

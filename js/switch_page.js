@@ -4,3 +4,4 @@ function switch_page(page) {
 }
 e(aliases.p.b.m).onclick=()=>{switch_page('m');};
 e(aliases.p.b.s).onclick=()=>{switch_page('s');};
+e(aliases.p.b.st).onclick=()=>{switch_page('st');};

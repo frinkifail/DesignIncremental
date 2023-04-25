@@ -26,6 +26,24 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.gradient[wtcg] {
+    background: -webkit-linear-gradient(#fff, #0f0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient[wtcb] {
+    background: -webkit-linear-gradient(#fff, #00f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient[wtcl] {
+    background: -webkit-linear-gradient(#fff, #000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .d[inline] {
     display: inline;
 }
