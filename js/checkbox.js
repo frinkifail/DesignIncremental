@@ -3,13 +3,13 @@ const dolla_sign_chx = document.getElementsByClassName("set__chx__dolla");
 // for (var i = 0; i < dolla_sign_chx.length; i++) {
 //     dolla_sign_chx.item(i).onchange=()=>{if(dolla_sign_chx.item(i)){user_settings.dolla_sign=true;}else{user_settings.dolla_sign=false;};};
 // }
-checked_interval = setInterval(() => {
+data_interval = setInterval(() => {
+    // dolla sign chx
     if (dolla_sign_chx[0].parentElement.parentElement.parentElement.parentElement != document.body) {}
     else {
-        if (dolla_sign_chx[0].checked) {
-            user_settings.dolla_sign = true;
-        } else {
-            user_settings.dolla_sign = false;
-        };
+        user_settings.dolla_sign = dolla_sign_chx[0].checked; // optimize
     }
-}, 200)
+    // shop
+    // test item
+    // WIP
+}, 200);
